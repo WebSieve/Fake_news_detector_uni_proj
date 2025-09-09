@@ -1,21 +1,21 @@
 # 🔍 Advanced Fake News Detection System by Sahil Murmu & team.
 
 ---
-## Team Details :
+## 🐙 Team Details
 > [!INFO]
-- Leader Name : Sahil Murmu.
-- Department : B.Tech CSE AIML
-- Section : B
-- Student Code : BWU/BTA/24/094
+- Leader Name : **Sahil Murmu**
+- Department : **B.Tech CSE AIML**
+- Section :    **B**
+- Student Code : **BWU/BTA/24/094**
 ---
-- Member 1 : Subhabrata Sinha
-- Department : B.Tech CSE AIML
-- Section : B
-- Student Code : BWU/BTA/24/119
+- Member 1 : **Subhabrata Sinha**
+- Department : **B.Tech CSE AIML**
+- Section :    **B**
+- Student Code : **BWU/BTA/24/119**
 ---
 ## Roles : 
-- Sahil Murmu : Backend, Frontend, Data_management [FullStack]
-- Subhabrata Sinha : Emotional Support.
+- **Sahil Murmu : Backend, Frontend, Data_management [FullStack]**
+- **Subhabrata Sinha : Emotional Support**
 ---
 
 
