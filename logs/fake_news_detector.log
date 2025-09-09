@@ -1,0 +1,28 @@
+2025-09-09 19:41:51,278 - simple_inference - ERROR - Failed to load model: Local model not found
+2025-09-09 19:41:51,278 - simple_inference - INFO - Using pretrained RoBERTa model as fallback
+2025-09-09 19:41:57,188 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-09 19:42:03,147 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-09-09 19:43:43,341 - simple_inference - ERROR - Failed to load model: Local model not found
+2025-09-09 19:43:43,361 - simple_inference - INFO - Using pretrained RoBERTa model as fallback
+2025-09-09 19:43:49,220 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-09 20:12:01,068 - simple_inference - ERROR - Failed to load model: Local model not found
+2025-09-09 20:12:01,068 - simple_inference - INFO - Using pretrained RoBERTa model as fallback
+2025-09-09 20:12:06,732 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-09 20:16:13,613 - simple_inference - ERROR - Failed to load model: Local model not found
+2025-09-09 20:16:13,613 - simple_inference - INFO - Using pretrained RoBERTa model as fallback
+2025-09-09 20:16:19,713 - simple_inference - INFO - Pretrained RoBERTa model loaded successfully
+2025-09-09 20:16:20,068 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-09 20:16:20,853 - data_preparation - INFO - Creating sample dataset with 50 samples...
+2025-09-09 20:16:20,858 - data_preparation - INFO - Preprocessing 50 samples...
+2025-09-09 20:16:20,861 - data_preparation - INFO - After preprocessing: 50 samples
+2025-09-09 20:16:20,861 - data_preparation - INFO - Label distribution: {0: 30, 1: 20}
+2025-09-09 20:16:25,967 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-09-09 20:19:06,536 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-09 20:19:07,394 - data_preparation - INFO - Creating sample dataset with 3 samples...
+2025-09-09 20:19:07,394 - data_preparation - INFO - Preprocessing 3 samples...
+2025-09-09 20:19:07,403 - data_preparation - INFO - After preprocessing: 3 samples
+2025-09-09 20:19:07,403 - data_preparation - INFO - Label distribution: {0: 3}
+2025-09-09 20:19:18,381 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
