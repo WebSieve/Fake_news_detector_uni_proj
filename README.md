@@ -36,7 +36,7 @@
 [![Pretrained](https://img.shields.io/badge/Model-Pretrained-brightgreen.svg)]()
 
 > **Advanced Fake News Detection System**  
-> Using machine learning models trained on 40,000+ news articles
+> Using Deep learning models trained on 40,000+ news articles
 
 ## 🎯 Project Overview
 
