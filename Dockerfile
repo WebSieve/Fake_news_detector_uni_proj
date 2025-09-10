@@ -31,4 +31,4 @@ EXPOSE 7860
 HEALTHCHECK CMD curl --fail http://localhost:7860 || exit 1
 
 # Run application
-CMD ["python", "app.py"]
+CMD ["python", "web_application.py"]
