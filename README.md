@@ -1,6 +1,8 @@
 # 🔍 Advanced Fake News Detection System by Sahil Murmu & team
 
 ---
+# Team Name: **Yin_Yang**
+---
 
 ## 🐙 Team Details
 >
