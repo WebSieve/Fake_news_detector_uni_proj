@@ -417,14 +417,6 @@ pip install -r requirements-dev.txt  # If available
 python -m pytest tests/  # If test suite available
 ```
 
-### Contribution Guidelines
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
 ## 📝 Changelog
 
 ### v1.0.0 (Current)
@@ -476,12 +468,6 @@ python -m pytest tests/  # If test suite available
    # Solution: Install PyTorch with CUDA support
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
-
-### Getting Help
-
-1. Check [Issues](https://github.com/your-repo/issues) for known problems
-2. Search [Discussions](https://github.com/your-repo/discussions)
-3. Create new issue with detailed error information
 
 ## 📄 License
 
