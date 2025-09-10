@@ -26,3 +26,23 @@
 2025-09-09 20:19:07,403 - data_preparation - INFO - Label distribution: {0: 3}
 2025-09-09 20:19:18,381 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
 
+2025-09-10 22:15:25,279 - fake_news_inference - INFO - Loading PRETRAINED model: jy46604790/Fake-News-Bert-Detect
+2025-09-10 22:15:25,279 - fake_news_inference - INFO - Trained on 40,000+ real news articles
+2025-09-10 22:15:28,839 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-09-10 22:15:30,323 - fake_news_inference - INFO - Pretrained model loaded successfully!
+2025-09-10 22:15:30,814 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-10 22:15:33,622 - data_preparation - INFO - Creating sample dataset with 50 samples...
+2025-09-10 22:15:33,622 - data_preparation - INFO - Preprocessing 50 samples...
+2025-09-10 22:15:33,661 - data_preparation - INFO - After preprocessing: 50 samples
+2025-09-10 22:15:33,664 - data_preparation - INFO - Label distribution: {0: 30, 1: 20}
+2025-09-10 22:16:04,972 - fake_news_inference - INFO - Loading PRETRAINED model: jy46604790/Fake-News-Bert-Detect
+2025-09-10 22:16:04,973 - fake_news_inference - INFO - Trained on 40,000+ real news articles
+2025-09-10 22:16:10,141 - tensorflow - WARNING - From C:\Users\msahi\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-09-10 22:16:11,591 - fake_news_inference - INFO - Pretrained model loaded successfully!
+2025-09-10 22:16:11,973 - datasets - INFO - TensorFlow version 2.20.0 available.
+2025-09-10 22:16:12,774 - data_preparation - INFO - Creating sample dataset with 50 samples...
+2025-09-10 22:16:12,774 - data_preparation - INFO - Preprocessing 50 samples...
+2025-09-10 22:16:12,774 - data_preparation - INFO - After preprocessing: 50 samples
+2025-09-10 22:16:12,774 - data_preparation - INFO - Label distribution: {0: 30, 1: 20}

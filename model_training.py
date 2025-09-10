@@ -232,7 +232,7 @@ class AdvancedModelTrainer:
             eps=1e-8
         )
         
-        total_steps = len(train_loader) * self.config.EPOCHS
+        total_steps = len(train_loader) * self.config.NUM_EPOCHS
         scheduler = get_linear_schedule_with_warmup(
             optimizer,
             num_warmup_steps=0,
@@ -244,8 +244,8 @@ class AdvancedModelTrainer:
         best_model_state = None
         patience_counter = 0
         
-        for epoch in range(self.config.EPOCHS):
-            self.logger.info(f"Epoch {epoch + 1}/{self.config.EPOCHS}")
+        for epoch in range(self.config.NUM_EPOCHS):
+            self.logger.info(f"Epoch {epoch + 1}/{self.config.NUM_EPOCHS}")
             
             # Train
             train_loss = self.train_epoch(self.model, train_loader, optimizer, scheduler)
@@ -310,7 +310,7 @@ class AdvancedModelTrainer:
             'max_length': self.config.MAX_LENGTH,
             'batch_size': self.config.BATCH_SIZE,
             'learning_rate': self.config.LEARNING_RATE,
-            'epochs': self.config.EPOCHS
+            'epochs': self.config.NUM_EPOCHS
         }
         save_json(config_dict, model_path / "model_config.json")
         

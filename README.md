@@ -1,33 +1,47 @@
-# 🔍 Advanced Fake News Detection System by Sahil Murmu & team.
+# 🔍 Advanced Fake News Detection System by Sahil Murmu & team
 
 ---
+
 ## 🐙 Team Details
+>
 > [!INFO]
+
 - Leader Name : **Sahil Murmu**
 - Department : **B.Tech CSE AIML**
 - Section :    **B**
 - Student Code : **BWU/BTA/24/094**
+
 ---
+
 - Member 1 : **Subhabrata Sinha**
 - Department : **B.Tech CSE AIML**
 - Section :    **B**
 - Student Code : **BWU/BTA/24/119**
----
-## Roles : 
-- **Sahil Murmu : Backend, Frontend, Data_management [FullStack]**
-- **Subhabrata Sinha : Emotional Support**
+
 ---
 
+## Roles
+
+- **Sahil Murmu : Backend, Frontend, Data_management [FullStack]**
+- **Subhabrata Sinha : Error Analysis, Information Scraping, Support**
+
+---
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Accuracy: 96%+](https://img.shields.io/badge/Accuracy-96%25%2B-green.svg)]()
 [![RoBERTa](https://img.shields.io/badge/Model-RoBERTa-orange.svg)]()
+[![Pretrained](https://img.shields.io/badge/Model-Pretrained-brightgreen.svg)]()
 
-> **Ultra-Advanced AI-Powered Fake News Detection System**  
-> Production-ready end-to-end solution with 96%+ accuracy using RoBERTa transformers
+> **Advanced Fake News Detection System**  
+> Using machine learning models trained on 40,000+ news articles
 
 ## 🎯 Project Overview
+
+This system uses advanced RoBERTa models for accurate fake news detection:
+
+- ✅ **High Accuracy**: Reliable prediction results
+- ✅ **40,000+ Training Samples**: Real news articles
 
 This project implements a state-of-the-art fake news detection system using advanced NLP techniques and the RoBERTa (Robustly Optimized BERT) model. The system achieves 96%+ accuracy on test datasets and includes a complete production pipeline from data preparation to web deployment.
 
@@ -51,9 +65,9 @@ fake_news_detector_end_to_end/
 ├── 📊 data_preparation.py      # Data loading and preprocessing
 ├── 🤖 model_training.py        # Advanced model training pipeline
 ├── 📈 evaluation.py            # Comprehensive model evaluation
-├── 🌐 app.py                   # Production web application
-├── 🚀 run_all.py              # Complete pipeline orchestration
-├── 🔍 simple_inference.py     # Fast prediction system
+├── 🌐 web_application.py       # Production web application
+├── 🚀 project_pipeline.py     # Complete pipeline orchestration
+├── 🔍 fake_news_inference.py  # Fast prediction system
 ├── 🐳 Dockerfile              # Container configuration
 ├── 🐙 docker-compose.yml      # Multi-service deployment
 ├── 📚 DEPLOYMENT.md           # Deployment guide
@@ -67,6 +81,7 @@ fake_news_detector_end_to_end/
 ## 🚀 Quick Start
 
 ### Option 1: One-Command Setup
+
 ```bash
 # Clone and setup everything
 git clone <your-repo-url>
@@ -76,6 +91,7 @@ python run_all.py
 ```
 
 ### Option 2: Step-by-Step
+
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
@@ -90,10 +106,11 @@ python model_training.py
 python evaluation.py
 
 # 5. Launch web app
-python app.py
+python web_application.py
 ```
 
 ### Option 3: Docker Deployment
+
 ```bash
 # Build and run with Docker
 docker-compose up -d
@@ -112,6 +129,7 @@ docker-compose up -d
 | **ROC-AUC** | 0.984 |
 
 ### 📈 Training Results
+
 - **Dataset**: Multi-source fake news datasets (50K+ articles)
 - **Model**: RoBERTa-base fine-tuned for classification
 - **Training Time**: ~2 hours on GPU
@@ -120,32 +138,37 @@ docker-compose up -d
 ## 🔧 Components
 
 ### 1. 📊 Data Preparation (`data_preparation.py`)
+
 - Multi-dataset loader (FakeNewsNet, LIAR, custom datasets)
 - Advanced text preprocessing and cleaning
 - Intelligent train/validation/test splitting
 - Data quality validation and statistics
 
 ### 2. 🤖 Model Training (`model_training.py`)
+
 - Fine-tuned RoBERTa transformer model
 - Advanced training pipeline with early stopping
 - Hyperparameter optimization
 - Comprehensive model checkpointing
 
 ### 3. 📈 Evaluation (`evaluation.py`)
+
 - Comprehensive model evaluation suite
 - Advanced visualizations (ROC curves, confusion matrices)
 - Interactive Plotly dashboards
 - Misclassification analysis
 - Word clouds and statistical reports
 
-### 4. 🌐 Web Application (`app.py`)
+### 4. 🌐 Web Application (`web_application.py`)
+
 - Beautiful Gradio interface
 - Real-time single article analysis
 - Batch processing capabilities
 - Live statistics and monitoring
 - Mobile-responsive design
 
-### 5. 🔍 Simple Inference (`simple_inference.py`)
+### 5. 🔍 Fake News Inference (`fake_news_inference.py`)
+
 - Fast prediction API
 - Model caching and optimization
 - Batch processing support
@@ -154,17 +177,19 @@ docker-compose up -d
 ## 🎯 Usage Examples
 
 ### Web Interface
+
 ```bash
 # Launch web app
-python app.py
+python web_application.py
 
 # With public sharing
-python app.py --share
+python web_application.py --share
 
 # Visit http://localhost:7860
 ```
 
 ### Python API
+
 ```python
 from simple_inference import SimplePredictor
 
@@ -182,6 +207,7 @@ results = predictor.predict_batch(articles)
 ```
 
 ### Training Custom Model
+
 ```python
 from model_training import AdvancedModelTrainer
 from config import Config
@@ -198,12 +224,14 @@ print(f"Best F1 Score: {results['best_f1']:.4f}")
 ## 🛠️ Installation
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - pip package manager
 - 4GB+ RAM recommended
 - GPU optional (for training acceleration)
 
 ### Dependencies
+
 ```bash
 # Core ML libraries
 transformers>=4.35.0
@@ -231,6 +259,7 @@ nltk>=3.8.1
 ## 🔧 Configuration
 
 ### Basic Configuration (`config.py`)
+
 ```python
 class Config:
     MODEL_NAME = "roberta-base"
@@ -242,6 +271,7 @@ class Config:
 ```
 
 ### Environment Variables
+
 ```bash
 # Optional environment variables
 export TRANSFORMERS_CACHE="/path/to/cache"
@@ -252,11 +282,13 @@ export PYTHONPATH="/path/to/project"
 ## 📊 Evaluation & Monitoring
 
 ### Generate Evaluation Report
+
 ```bash
 python evaluation.py
 ```
 
 **Generated Files:**
+
 - `evaluation_plots/confusion_matrix.png` - Confusion matrix visualization
 - `evaluation_plots/roc_curve.png` - ROC curve analysis
 - `evaluation_plots/metrics_summary.png` - Performance metrics
@@ -264,6 +296,7 @@ python evaluation.py
 - `evaluation_plots/evaluation_report.txt` - Comprehensive text report
 
 ### Real-time Monitoring
+
 - Live prediction statistics in web interface
 - Confidence score distribution analysis
 - Recent predictions tracking
@@ -272,6 +305,7 @@ python evaluation.py
 ## 🚀 Deployment
 
 ### Local Development
+
 ```bash
 # Development mode
 python app.py --debug
@@ -281,6 +315,7 @@ python app.py
 ```
 
 ### Docker Deployment
+
 ```bash
 # Build image
 docker build -t fake-news-detector .
@@ -295,11 +330,13 @@ docker-compose up -d
 ### Cloud Deployment
 
 #### Hugging Face Spaces
-1. Create new Space at https://huggingface.co/spaces
+
+1. Create new Space at <https://huggingface.co/spaces>
 2. Upload: `app.py`, `requirements.txt`, `config.py`, `utils.py`, `simple_inference.py`
 3. Automatic deployment
 
 #### Google Cloud Platform
+
 ```bash
 # App Engine
 gcloud app deploy
@@ -309,6 +346,7 @@ gcloud run deploy --source .
 ```
 
 #### AWS Elastic Beanstalk
+
 ```bash
 eb init
 eb create production
@@ -320,6 +358,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 ## 🧪 Testing
 
 ### Run Tests
+
 ```bash
 # Test individual components
 python -c "from config import Config; print('Config OK')"
@@ -331,6 +370,7 @@ python run_all.py --test-mode
 ```
 
 ### Sample Test Cases
+
 ```python
 # Test cases included in the codebase
 test_articles = [
@@ -343,12 +383,14 @@ test_articles = [
 ## 📈 Performance Optimization
 
 ### Speed Optimizations
+
 - Model quantization for faster inference
 - Batch processing for multiple articles
 - Caching frequently accessed models
 - GPU acceleration when available
 
 ### Memory Optimization
+
 - Efficient text preprocessing
 - Model checkpointing
 - Garbage collection management
@@ -357,6 +399,7 @@ test_articles = [
 ## 🤝 Contributing
 
 ### Development Setup
+
 ```bash
 # Fork repository and clone
 git clone https://github.com/your-username/fake-news-detector.git
@@ -375,6 +418,7 @@ python -m pytest tests/  # If test suite available
 ```
 
 ### Contribution Guidelines
+
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
@@ -384,6 +428,7 @@ python -m pytest tests/  # If test suite available
 ## 📝 Changelog
 
 ### v1.0.0 (Current)
+
 - ✅ Initial release with RoBERTa model
 - ✅ Complete web interface with Gradio
 - ✅ Docker deployment support
@@ -392,6 +437,7 @@ python -m pytest tests/  # If test suite available
 - ✅ Multi-platform deployment guides
 
 ### Planned Features
+
 - 🔄 Multi-language support
 - 🔄 Real-time news monitoring
 - 🔄 API rate limiting and authentication
@@ -403,6 +449,7 @@ python -m pytest tests/  # If test suite available
 ### Common Issues
 
 1. **Model Loading Error**
+
    ```bash
    # Solution: Check model files exist
    ls -la models/
@@ -410,26 +457,30 @@ python -m pytest tests/  # If test suite available
    ```
 
 2. **Out of Memory**
+
    ```bash
    # Solution: Reduce batch size
    export BATCH_SIZE=8
    ```
 
 3. **Port Already in Use**
+
    ```bash
    # Solution: Use different port
    python app.py --port 8080
    ```
 
 4. **CUDA Not Available**
+
    ```bash
    # Solution: Install PyTorch with CUDA support
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
 ### Getting Help
+
 1. Check [Issues](https://github.com/your-repo/issues) for known problems
-2. Search [Discussions](https://github.com/your-repo/discussions) 
+2. Search [Discussions](https://github.com/your-repo/discussions)
 3. Create new issue with detailed error information
 
 ## 📄 License
@@ -446,10 +497,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Project Maintainer**: [Your Name]
-- **Email**: your.email@example.com
-- **Documentation**: [Project Wiki](https://github.com/your-repo/wiki)
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
+- **Project Maintainer**: [Sahil Murmu]
+- **Email**: <msahil2603@gmail.com>
 
 ---
 
@@ -463,5 +512,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ for fighting misinformation**
 
 ---
-
-*Last updated: [Current Date]*

@@ -72,7 +72,7 @@ def test_simple_inference():
     """Test simple inference module"""
     print("\n3️⃣ Testing Simple Inference...")
     try:
-        from simple_inference import SimplePredictor
+        from fake_news_inference import SimplePredictor
         
         # Initialize predictor
         predictor = SimplePredictor()
@@ -151,11 +151,11 @@ def test_imports():
         import config
         import utils
         import data_preparation
-        import simple_inference
+        import fake_news_inference
         import model_training
         import evaluation
-        import app
-        import run_all
+        import web_application
+        import project_pipeline
         
         print("   ✅ All modules import successfully")
         print("✅ Import Test: PASSED")
@@ -170,8 +170,8 @@ def test_file_integrity():
     print("\n6️⃣ Testing File Integrity...")
     try:
         required_files = [
-            'config.py', 'utils.py', 'data_preparation.py', 'simple_inference.py',
-            'model_training.py', 'evaluation.py', 'app.py', 'run_all.py',
+            'config.py', 'utils.py', 'data_preparation.py', 'fake_news_inference.py',
+            'model_training.py', 'evaluation.py', 'web_application.py', 'project_pipeline.py',
             'requirements.txt', 'README.md', 'DEPLOYMENT.md',
             'Dockerfile', 'docker-compose.yml'
         ]
