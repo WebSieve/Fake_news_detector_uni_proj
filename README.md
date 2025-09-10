@@ -302,8 +302,6 @@ python evaluation.py
 - Recent predictions tracking
 - Model performance metrics
 
-## 🚀 Deployment
-
 ### Local Development
 
 ```bash
@@ -313,47 +311,6 @@ python app.py --debug
 # Production mode
 python app.py
 ```
-
-### Docker Deployment
-
-```bash
-# Build image
-docker build -t fake-news-detector .
-
-# Run container
-docker run -p 7860:7860 fake-news-detector
-
-# Or use docker-compose
-docker-compose up -d
-```
-
-### Cloud Deployment
-
-#### Hugging Face Spaces
-
-1. Create new Space at <https://huggingface.co/spaces>
-2. Upload: `app.py`, `requirements.txt`, `config.py`, `utils.py`, `simple_inference.py`
-3. Automatic deployment
-
-#### Google Cloud Platform
-
-```bash
-# App Engine
-gcloud app deploy
-
-# Cloud Run
-gcloud run deploy --source .
-```
-
-#### AWS Elastic Beanstalk
-
-```bash
-eb init
-eb create production
-eb deploy
-```
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
 ## 🧪 Testing
 
@@ -398,11 +355,9 @@ test_articles = [
 
 ## 🤝 Contributing
 
-### Development Setup
-
 ```bash
 # Fork repository and clone
-git clone https://github.com/your-username/fake-news-detector.git
+git clone https://github.com/WebSieve/Fake_news_detector_uni_proj.git
 cd fake-news-detector
 
 # Create development environment
