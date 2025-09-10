@@ -18,6 +18,8 @@ class Config:
     
     # Model configuration
     MODEL_NAME = "roberta-base"
+    PRETRAINED_MODEL = "jy46604790/Fake-News-Bert-Detect"  # Advanced pretrained model
+    USE_PRETRAINED = True  # Set to True to use pretrained model by default
     MAX_LENGTH = 512
     BATCH_SIZE = 16
     LEARNING_RATE = 2e-5
@@ -43,9 +45,15 @@ class Config:
     # App configuration
     APP_TITLE = "AI-Powered Fake News Detector"
     APP_DESCRIPTION = """
-    This tool uses state-of-the-art RoBERTa model to detect fake news.
-    Simply paste a news article and get an instant prediction!
+    This tool uses a PRETRAINED RoBERTa model trained on 40,000+ real news articles.
+    Simply paste a news article and get an instant, accurate prediction!
     """
+    
+    # Pretrained model options
+    AVAILABLE_PRETRAINED_MODELS = {
+        "jy46604790": "jy46604790/Fake-News-Bert-Detect",  # 40K+ samples, most popular
+        "hamzab": "hamzab/roberta-fake-news-classification"  # 100% accuracy on benchmark
+    }
     
     # Dataset URLs
     FAKENEWSNET_URL = "https://github.com/KaiDMML/FakeNewsNet"
@@ -56,6 +64,8 @@ class Config:
         """Print current configuration"""
         print("Current Configuration:")
         print(f"   Model: {cls.MODEL_NAME}")
+        print(f"   Pretrained Model: {cls.PRETRAINED_MODEL}")
+        print(f"   Use Pretrained: {cls.USE_PRETRAINED}")
         print(f"   Device: {cls.DEVICE}")
         print(f"   Batch Size: {cls.BATCH_SIZE}")
         print(f"   Learning Rate: {cls.LEARNING_RATE}")
