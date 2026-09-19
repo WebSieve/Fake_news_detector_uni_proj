@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Secrets / credentials - NEVER commit these
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+*.env.*
+secrets.json
+config.secrets.py
+
+# Gradio local cache (contains TLS certs)
+.gradio/
+
+# Logs - may contain local usernames/paths
+logs/
+*.log
+fake_news_detector.log
+
+# Generated / derived data (regenerable via data_preparation.py)
+data/processed_dataset/
+data/*.arrow
+
+# Models & large artifacts
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+evaluation_plots/
+cache/
+
+# Notebooks checkpoints & temp test output
+.ipynb_checkpoints/
+test_temp_dir/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

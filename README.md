@@ -11,14 +11,14 @@
 - Leader Name : **Sahil Murmu**
 - Department : **B.Tech CSE AIML**
 - Section :    **B**
-- Student Code : **BWU/BTA/24/094**
+- Student Code : **[REDACTED – contact team for verification]**
 
 ---
 
 - Member 1 : **Subhabrata Sinha**
 - Department : **B.Tech CSE AIML**
 - Section :    **B**
-- Student Code : **BWU/BTA/24/119**
+- Student Code : **[REDACTED – contact team for verification]**
 
 ---
 
@@ -441,7 +441,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 - **Project Maintainer**: [Sahil Murmu]
-- **Email**: <msahil2603@gmail.com>
+- **Email**: <!-- contact via GitHub profile – email removed to avoid spam harvesting -->
 
 ---
 
